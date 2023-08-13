@@ -1,5 +1,5 @@
 # Memory.h
-The "Memory.h" class is a toolset for accessing and manipulating game memory, enabling tasks like process identification, module addressing, memory reading, and writing.
+The Memory.h class is a toolset for accessing and manipulating game memory, enabling tasks like process identification, module addressing, memory reading, and writing.
 
 To use these functions, consider this example involving the game Assault Cube and its module "ac_client.exe":
 
