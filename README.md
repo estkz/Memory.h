@@ -3,11 +3,12 @@ The "Memory.h" class is a toolset for accessing and manipulating game memory, en
 
 To use these functions, consider this example involving the game Assault Cube and its module "ac_client.exe":
 
+```c++
 Memory memory{ "ac_client.exe" };
 const auto moduleBase = memory.GetModuleAddress("ac_client.exe");
 
 // Example of how to read and write the health address using local player and an offset to the health value:
-```c++
+
 // Offsets Example
 constexpr auto localPlayer = 0x17E0A8;
 constexpr auto ptrHealth = 0xEC;
