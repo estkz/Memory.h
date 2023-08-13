@@ -23,3 +23,5 @@ const int newHealth = 1337;
 memory.Write<int>(healthAddress, newHealth);
 ImGui::Text("Health: %d", memory.Read<int>(healthAddress)); // I'm using the ImGui Framework to display the value stored in the health address, but you can use std::cout if you prefer.
 ```
+
+For a comprehensive breakdown of each function's purpose and functionality, please refer to my Discord server: https://discord.gg/YuCxC7n9Zm
